@@ -1,0 +1,119 @@
+body{
+  margin: 0px;
+  text-align: center;
+font-family: 'Noto Sans JP', sans-serif;
+}
+h1{
+  color: #4D4C7D;
+  font-size: 90px;
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  color: #DE7119;
+  font-size: 2.5rem;
+  font-family: 'Merriweather', serif;
+}
+h3{
+  font-family: 'Merriweather', serif;
+}
+.top{
+  background-color:#D8B9C3;
+  padding-top: 150px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.middle{
+background-color:#D8B9C3;
+padding-bottom: 50px;
+}
+.bottom{
+background-color:#BE79DF;
+padding-top: 50px;
+padding-bottom: 20px;
+}
+a{
+  color: #FF1E56;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #F3D1F4;
+}
+.top-cloud{
+  position: absolute;
+  top: 100px;
+  right: 300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+img{
+  border-radius: 50%;
+}
+.developer{
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.algorithm{
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+hr{
+        border-color:#FFC8BD;
+        border-style: none;
+        border-top-style: dotted;
+        border-width: 5px;
+        width: 5%;
+        margin: 50px auto;
+      }
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px;
+  line-height: 2;
+  text-align: left;
+}
+.profile{
+  width: 50%;
+  margin:auto;
+  line-height: 2;
+}
+p{
+  font-size: 20px;
+}
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Merriweather', serif;
+	font-size:17px;
+	font-weight:bold;
+	font-style:italic;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+	background-color:#c62d1f;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.copyrights{
+  font-size: 12px;
+  margin: 20px 0px;
+}
